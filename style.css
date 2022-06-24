@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px
+}
+body {font-family: "Aspira","Helvetica","Arial",Sans-serif;
+}
+    
+.nav-element{
+    font-size: 26px;
+    text-decoration: none;
+    color:#EB7100;
+    font-weight:bold;
+    
+    
+}
+.nav-element h3{
+    padding:5px 50px 10px ;
+}
+.nav-line{
+ background-color:#EB7100;
+ height: 4px;
+ border: none;
+ }
+.main-section{
+    margin-top:80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:90px;
+   
+  
+}
+@media (max-width:1100px){
+    .main-section{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+       
+
+    }
+
+} 
+
+.main-info-section-heading{
+    line-height: 31px;
+    font-size: 22PX;
+    font-weight:1000px;
+}
+.main-info-section-heading-sub{
+    font-size: 15px;
+   
+}
+.fa-check{
+    color: #EB7100;
+    font-size: larger;
+    padding:7px;
+    
+}
+li{
+    list-style-type: none;
+}
+#fname,#lname{
+   
+    padding: 12px 15px 12px;
+    border:2px solid #e5e5e5;
+    cursor: pointer;
+    width:350px;
+    
+
+}
+#fname{
+ border-bottom: none;
+ border-top-left-radius:10px;
+ border-top-right-radius:10px;
+
+}
+#lname{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    
+
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-google{
+ color:#EB7100
+ 
+}
+.main-section-login-in-otherway{
+    display:flex;
+     margin-top:50px;
+    width:350px;
+   
+}
+
+.main-section-login-in-otherway > div{
+ border:1px solid #e5e5e5;
+padding:10px 20px 10px 20px
+}
+.login-btn{
+    margin-top:40px;
+    background-color: #EB7100;
+    color: white;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+   width:350px;
+    border-radius: 10px;
+    
+}
+.main-section-login-heading{
+    text-align:center;
+    margin-bottom:17px;
+}
+.main-info-subsection{
+    margin-top:12px;
+    
+}
+.line-break:after,.line-break:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+}
+
+.break{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.line-break{
+    background-color: #e5e5e5;
+}
+.footer-section{
+    margin-top: 20px;
+    
+    text-align: center;
+}
+.footer-section-link{
+  color:#007c8a
+}
+.footer-section-signin{
+    margin-top:17px;
+}
